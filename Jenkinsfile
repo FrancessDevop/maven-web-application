@@ -9,7 +9,7 @@ pipeline {
 
     stage('Checkout') {
       steps {
-        git branch: 'main', url: 'https://github.com/FrancessDevop/maven-web-application.git'
+        git branch: 'master', url: 'https://github.com/FrancessDevop/maven-web-application.git'
       }
     }
 
